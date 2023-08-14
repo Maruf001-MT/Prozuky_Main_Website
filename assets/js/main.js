@@ -1121,15 +1121,15 @@ __p+='`), H
                 e(l).attr("style", R ? "display: none !important;" : "")
             }
 
-            function d() {
-                var R = e('<a class="w-webflow-badge"></a>').attr("href", "https://webflow.com?utm_campaign=brandjs"),
-                    m = e("<img>").attr("src", "https://d3e54v103j8qbb.cloudfront.net/img/webflow-badge-icon.f67cd735e3.svg").attr("alt", "").css({
-                        marginRight: "8px",
-                        width: "16px"
-                    }),
-                    q = e("<img>").attr("src", "https://d1otoma47x30pg.cloudfront.net/img/webflow-badge-text.6faa6a38cd.svg").attr("alt", "Made in Webflow");
-                return R.append(m, q), R[0]
-            }
+            // function d() {
+            //     var R = e('<a class="w-webflow-badge"></a>').attr("href", "https://webflow.com?utm_campaign=brandjs"),
+            //         m = e("<img>").attr("src", "https://d3e54v103j8qbb.cloudfront.net/img/webflow-badge-icon.f67cd735e3.svg").attr("alt", "").css({
+            //             marginRight: "8px",
+            //             width: "16px"
+            //         }),
+            //         q = e("<img>").attr("src", "https://d1otoma47x30pg.cloudfront.net/img/webflow-badge-text.6faa6a38cd.svg").attr("alt", "Made in Webflow");
+            //     return R.append(m, q), R[0]
+            // }
 
             function E() {
                 var R = i.children(a),
